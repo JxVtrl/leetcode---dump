@@ -1,4 +1,4 @@
-function addTwoNumbers(l1: number[] | null, l2: number[]  | null): any | null {
+function addTwoNumbers2(l1: number[] | null, l2: number[]  | null): any | null {
     let l3 = [] as number[]
 
     if (l1?.length && l2?.length) {
@@ -36,4 +36,4 @@ function addTwoNumbers(l1: number[] | null, l2: number[]  | null): any | null {
     }
 };
 
-console.log(addTwoNumbers([2,4,3], [5,6,4]))
+console.log(addTwoNumbers2([2,4,3], [5,6,4]))

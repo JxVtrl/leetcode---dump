@@ -1,4 +1,4 @@
-var addTwoNumbers = function(l1, l2) {
+let addTwoNumbers = function(l1, l2) {
     let sum = 0;
     let current = new ListNode(0);
     let result = current;
